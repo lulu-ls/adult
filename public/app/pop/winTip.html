@@ -1,0 +1,14 @@
+<div win-tip id="winTip" class="modal fade" modal-center>
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div style="padding-top:20px;padding-bottom: 20px;text-align: center;">
+                    <span ng-bind="winTip.content"></span>
+                </div>
+            </div>
+            <div class="modal-footer" style="text-align: center">
+                <button type="button" class="btn btn-default" data-dismiss="modal" ng-show="winTip.showClose==1">关闭</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

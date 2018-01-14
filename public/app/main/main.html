@@ -1,0 +1,18 @@
+<style>
+    .mainImg{
+        width: 100%;
+        height:100%;
+    }
+    /*.mainDiv{*/
+        /*text-align: center;*/
+    /*}*/
+</style>
+
+<div style="position:relative;" >
+    <a href="{{images[0].url}}"><img class="mainImg" ng-src="{{images[0].src}}"/></a>
+    <div ng-show="mainShow">
+        <!--<button style="position:absolute; z-index:2;  bottom:60px" class="button button-block button-calm">登陆</button>-->
+        <button style="position:absolute; z-index:2;  bottom:5px;" class="button button-block button-energized" ng-click="goChoose()">开启我的选妃之旅</button>
+    </div>
+</div>
+

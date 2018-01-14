@@ -1,0 +1,82 @@
+/*手机下去除input，button默认*/
+input[type="button"],
+button {
+    -webkit-appearance: none !important;
+}
+.empty,
+.loginContainer{padding: 0}
+.loginContainer .img{
+    width:100%;
+    height:auto;margin-bottom: 1.5rem;
+}
+.lab{
+    width:100%;
+    height:3.25rem;
+    line-height: 3.25rem;
+    background: #FFFFFF;
+}
+.lab .img-con{
+    width:100%;
+    height:3.25rem;
+    position: relative;
+}
+.lab .img-con img{
+    position: absolute;
+    width:76%;
+    top:24%;
+    left:12%;
+}
+.ji{
+    width:1.25rem !important;
+    height:1.5rem !important;
+    margin:0.75rem auto;
+}
+.lab input {
+    border:none; width:100%;height: 3.25rem;line-height: 3.25rem;padding: 0;
+    font-size:1.4rem !important;
+}
+.lab input:focus{
+    border-color: transparent;
+    outline: 0;
+    outline: thin dotted \9;
+}
+.ng-binding,
+span{
+    font-size:1.3rem !important;
+}
+.click{
+    width:92%;height:2.25rem;line-height: 2.25rem;display: block;text-align: center;  border:1px solid #e9e9e9;
+    -webkit-border-radius:0.25rem;-moz-border-radius: 0.25rem;border-radius: 0.25rem;margin:0.5rem auto;background: #ffffff}
+.click:focus{
+    border-color: #e9e9e9;
+    outline: 0;
+    outline: thin dotted \9;
+}
+.login-btn,.login-btn:focus{
+    width:100%;
+    height:3.25rem; line-height: 3.25rem;background: #f73d3b;border: 1px solid #f73d3b;
+    font-size:1.6rem;color: #ffffff;
+}
+@media (min-width: 320px) {
+    body {
+        background-color: #f5f5f5;
+    }
+
+    .loginBody {
+        background-color: #f5f5f5;
+    }
+
+}
+@media (min-width: 992px) {
+    body {
+        background-color: #364150;
+    }
+
+    .loginBody{
+        background-color: #364150;
+    }
+    .loginContainer {
+        background-color: #f5f5f5;margin-top:10%;border-radius: 10px
+    }
+
+}

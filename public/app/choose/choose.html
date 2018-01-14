@@ -1,0 +1,43 @@
+
+<style>
+    /*.div1 {*/
+        /*transition: all linear 0.5s;*/
+        /*!*background-color: lightblue;*!*/
+        /*height: 50px;*/
+    /*}*/
+
+    /*.ng-hide {*/
+        /*height: 0;*/
+    /*}*/
+    /*.button.button-positive{*/
+        /*border: 1px;*/
+        /*border-color: wheat;*/
+        /*background-color:black;*/
+    /*}*/
+
+</style>
+
+<div>
+    <!--<div data-am-sticky>-->
+        <!--<button class="am-btn am-btn-primary am-btn-block">Stick to top</button>-->
+    <!--</div>-->
+
+  <div class="divSwiper">
+      <div class="swiper-container" style="background-color: black;height: 620px">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide"  ng-repeat="x in mList" ng-click="change(x)" style="position:relative;">
+                  <img ng-src="{{x.mSrc}}"/>
+              </div>
+          </div>
+
+          <!--<div class="div1" ng-hide="myCheck" style="position:absolute;z-indent:2;margin-right:10px;margin-top:50px;">-->
+              <!--<h1>隐藏 DIV: <input type="checkbox" ng-model="myCheck"></h1>-->
+
+              <!--<div ng-hide="myCheck"></div>-->
+          <!--</div>-->
+      </div>
+
+  </div>
+
+</div>
+
